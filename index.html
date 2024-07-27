@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Typescript Basic Website</title>
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+  <link rel="stylesheet" href="styles.css" />
+  <script type="module" src="dist/app.js"></script>
+</head>
+<body>
+  <h1>Basic Website w/ Typescript</h1>
+  <section>
+    <h2>Trackers</h2>
+    <p class="intro">
+      <strong>How good are your reflexes? </strong>
+      <br/>
+      Each of the buttons below will randomly light-up
+      at which time the button will become active.  
+      Your job is to click the button before it deactivates.
+    </p>
+    <p class="intro">
+      <strong>Totals</strong>
+      <br/>
+      <span class="totals">pending...</span>
+    </p>
+    <div class="flex">
+      <div class="tracker" data-key="orange" data-delta="2" data-duration="2000" data-frequency="5000">
+        <button>click me</button>
+        <div class="output"></div>
+      </div>
+      <div class="tracker" data-key="teal" data-delta="1" data-duration="2000" data-frequency="3000">
+        <button>click me</button>
+        <div class="output"></div>
+      </div>
+      <div class="tracker" data-key="pink" data-delta="10" data-duration="1000" data-frequency="10000">
+        <button>click me</button>
+        <div class="output"></div>
+      </div>
+      <div class="tracker" data-key="blue" data-delta="2" data-duration="2000" data-frequency="3000">
+        <button>click me</button>
+        <div class="output"></div>
+      </div>
+    </div>
+
+  </section>
+</body>
+</html>
