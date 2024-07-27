@@ -4,7 +4,7 @@
   "main": "index.js",
   "scripts": {
     "start": "tsc --watch",
-    "build": "tsc --build --dry"
+    "build": "tsc --build"
   },
   "keywords": [],
   "author": "",
